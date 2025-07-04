@@ -8,7 +8,7 @@ A grid-based puzzle game where players maneuver snake-like buses to their design
 3.  [The Level Editor](#the-level-editor)
 4.  [How to Create a New Level (Tutorial)](#how-to-create-a-new-level-tutorial)
 5.  [Key Systems Deep Dive](#key-systems-deep-dive)
-6.  [Personal Notes](#personal-nptes)
+6.  [Personal Notes](#personal-notes)
 
 ## Core Gameplay Mechanics
 
