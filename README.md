@@ -13,7 +13,10 @@ A grid-based puzzle game where players maneuver snake-like buses to their design
 ## Core Gameplay Mechanics
 
 The gameplay revolves around solving spatial puzzles on a grid.
-[![Oynanış Videosu Önizlemesi](Contents/img0.png)](Contents/movie1.mp4)
+
+<a href="Contents/movie1.mp4" title="Click for play video">
+  <img src="Contents/img1.png" alt="Gameplay Video" width="600">
+</a>
 
 * **Bus Movement**: Players can click and drag buses to move them one cell at a time. Buses behave like snakes; each segment follows the path of the one before it. A key mechanic is the ability to initiate movement from either the **Head** (for forward movement) or the **Tail** (for backward movement), allowing for complex maneuvers.
 * **Passenger Collection**: Each level contains colored buses and corresponding colored "Destination" points (stairs). The primary objective is to move a bus to its matching destination. When a bus is correctly positioned, passengers waiting in a queue will begin to board.
