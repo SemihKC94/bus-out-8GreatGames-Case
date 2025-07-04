@@ -8,10 +8,15 @@ A grid-based puzzle game where players maneuver snake-like buses to their design
 3.  [The Level Editor](#the-level-editor)
 4.  [How to Create a New Level (Tutorial)](#how-to-create-a-new-level-tutorial)
 5.  [Key Systems Deep Dive](#key-systems-deep-dive)
+6.  [Personal Notes](#personal-notes)
 
 ## Core Gameplay Mechanics
 
 The gameplay revolves around solving spatial puzzles on a grid.
+
+<a href="https://youtube.com/shorts/GsZWkLlDhSw" title="Click for play video">
+  <img src="Contents/img1.png" alt="Gameplay Video" width="270" height="480">
+</a>
 
 * **Bus Movement**: Players can click and drag buses to move them one cell at a time. Buses behave like snakes; each segment follows the path of the one before it. A key mechanic is the ability to initiate movement from either the **Head** (for forward movement) or the **Tail** (for backward movement), allowing for complex maneuvers.
 * **Passenger Collection**: Each level contains colored buses and corresponding colored "Destination" points (stairs). The primary objective is to move a bus to its matching destination. When a bus is correctly positioned, passengers waiting in a queue will begin to board.
@@ -107,3 +112,12 @@ You now have a complete, self-contained `LevelData` asset ready to be used by th
 
 * **Event-Driven Spawning**: The runtime setup is decentralized. `LevelGridGenerator` spawns destinations and fires a `public static event`. The `PassengerSpawner` listens for this event and, upon hearing it, spawns the correct number of passengers for that specific destination, creating a clean, decoupled architecture.
 * **Occupancy Management**: The `GridOccupancyManager` singleton is the source of truth for all dynamic object positions. The collision detection logic in `BusController` queries this manager to determine if a move is valid, preventing conflicts.
+
+## Personal Notes
+
+This project was primarily an exercise in building a robust, data-driven level creation pipeline and complex gameplay mechanics.
+
+- The current visuals are functional but serve as placeholders. There is significant room for artistic and graphical improvements to enhance the player experience.
+- My main focus was concentrated on developing the comprehensive **Level Editor** and the core game systems (grid, bus movement, collision, passenger queuing, etc.).
+
+For extra visual assets, gameplay videos, and design mockups, please check the [Content folder](./Contents/).
