@@ -73,6 +73,11 @@ The editor operates in three distinct modes to keep the UI clean and focused:
 
 Follow these-adımlar to design a complete level from scratch.
 
+<a href="https://youtu.be/PrUy8EWS0BA" title="Click for play video">
+  <img src="Contents/img3.png" alt="How to create level - Tutorial" width="540" height="480">
+</a>
+
+
 1.  **Open the Editor**
     * In the Unity menu bar, go to `SKC > Level Editor`.
 
