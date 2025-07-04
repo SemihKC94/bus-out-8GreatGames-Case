@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deedd8456b245ad4fa248dd82663be34, type: 3}
+  m_Name: Level 5
+  m_EditorClassIdentifier: 
+  gridData: {fileID: 4900000, guid: eb7933f8559ab4f4bb445858ad86a6ce, type: 3}
+  destinationData: {fileID: 4900000, guid: 53d72b014fd35fb4c923d04223ff87b5, type: 3}
+  busData: {fileID: 4900000, guid: 351e8a00528c8d3418acc0d8fa12ea67, type: 3}
+  duration: 80
+  CamPositionY: 9

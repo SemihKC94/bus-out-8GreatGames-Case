@@ -1,0 +1,34 @@
+{
+    "buses": [
+        {
+            "busId": 1,
+            "busColor": 0,
+            "parts": [
+                {
+                    "busId": 1,
+                    "partType": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 2
+                    }
+                },
+                {
+                    "busId": 1,
+                    "partType": 1,
+                    "position": {
+                        "x": 0,
+                        "y": 1
+                    }
+                },
+                {
+                    "busId": 1,
+                    "partType": 2,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

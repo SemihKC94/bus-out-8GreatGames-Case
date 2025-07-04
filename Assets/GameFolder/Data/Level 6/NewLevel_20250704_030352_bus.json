@@ -1,0 +1,80 @@
+{
+    "buses": [
+        {
+            "busId": 1,
+            "busColor": 1,
+            "parts": [
+                {
+                    "busId": 1,
+                    "partType": 0,
+                    "position": {
+                        "x": 1,
+                        "y": 2
+                    }
+                },
+                {
+                    "busId": 1,
+                    "partType": 1,
+                    "position": {
+                        "x": 2,
+                        "y": 2
+                    }
+                },
+                {
+                    "busId": 1,
+                    "partType": 1,
+                    "position": {
+                        "x": 3,
+                        "y": 2
+                    }
+                },
+                {
+                    "busId": 1,
+                    "partType": 1,
+                    "position": {
+                        "x": 3,
+                        "y": 3
+                    }
+                },
+                {
+                    "busId": 1,
+                    "partType": 2,
+                    "position": {
+                        "x": 2,
+                        "y": 3
+                    }
+                }
+            ]
+        },
+        {
+            "busId": 2,
+            "busColor": 5,
+            "parts": [
+                {
+                    "busId": 2,
+                    "partType": 0,
+                    "position": {
+                        "x": 4,
+                        "y": 2
+                    }
+                },
+                {
+                    "busId": 2,
+                    "partType": 1,
+                    "position": {
+                        "x": 4,
+                        "y": 1
+                    }
+                },
+                {
+                    "busId": 2,
+                    "partType": 2,
+                    "position": {
+                        "x": 3,
+                        "y": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

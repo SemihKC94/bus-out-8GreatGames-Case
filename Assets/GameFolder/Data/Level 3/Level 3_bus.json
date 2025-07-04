@@ -1,0 +1,110 @@
+{
+    "buses": [
+        {
+            "busId": 1,
+            "busColor": 2,
+            "parts": [
+                {
+                    "busId": 1,
+                    "partType": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 4
+                    }
+                },
+                {
+                    "busId": 1,
+                    "partType": 1,
+                    "position": {
+                        "x": 1,
+                        "y": 4
+                    }
+                },
+                {
+                    "busId": 1,
+                    "partType": 1,
+                    "position": {
+                        "x": 2,
+                        "y": 4
+                    }
+                },
+                {
+                    "busId": 1,
+                    "partType": 2,
+                    "position": {
+                        "x": 3,
+                        "y": 4
+                    }
+                }
+            ]
+        },
+        {
+            "busId": 2,
+            "busColor": 4,
+            "parts": [
+                {
+                    "busId": 2,
+                    "partType": 0,
+                    "position": {
+                        "x": 4,
+                        "y": 3
+                    }
+                },
+                {
+                    "busId": 2,
+                    "partType": 1,
+                    "position": {
+                        "x": 4,
+                        "y": 2
+                    }
+                },
+                {
+                    "busId": 2,
+                    "partType": 1,
+                    "position": {
+                        "x": 4,
+                        "y": 1
+                    }
+                },
+                {
+                    "busId": 2,
+                    "partType": 2,
+                    "position": {
+                        "x": 3,
+                        "y": 1
+                    }
+                }
+            ]
+        },
+        {
+            "busId": 3,
+            "busColor": 5,
+            "parts": [
+                {
+                    "busId": 3,
+                    "partType": 0,
+                    "position": {
+                        "x": 3,
+                        "y": 7
+                    }
+                },
+                {
+                    "busId": 3,
+                    "partType": 1,
+                    "position": {
+                        "x": 4,
+                        "y": 7
+                    }
+                },
+                {
+                    "busId": 3,
+                    "partType": 2,
+                    "position": {
+                        "x": 4,
+                        "y": 6
+                    }
+                }
+            ]
+        }
+    ]
+}

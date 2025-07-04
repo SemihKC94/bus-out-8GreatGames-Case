@@ -1,0 +1,12 @@
+{
+    "destinations": [
+        {
+            "destinationId": 1,
+            "position": {
+                "x": 3,
+                "y": 3
+            },
+            "targetColor": 0
+        }
+    ]
+}
