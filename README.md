@@ -22,7 +22,7 @@ The gameplay revolves around solving spatial puzzles on a grid.
 
 ## Project Structure
 
-The project is organized into several key namespaces and scripts, primarily located in the `Assets/Scripts/` directory.
+The project is organized into several key namespaces and scripts, primarily located in the `Assets/GameFolder/_Scripts/` directory.
 
 * `SKC.Grid`
     * **`GridDefinitions.cs`**: Contains core data structures like `GridPosition` and enums like `GridContentType`.
@@ -51,7 +51,7 @@ The project is organized into several key namespaces and scripts, primarily loca
 
 ## The Level Editor
 
-The backbone of the production pipeline is the custom Level Editor, accessible via the Unity menu (`Window > SKC > Level Editor`). It provides a comprehensive, user-friendly interface for level creation.
+The backbone of the production pipeline is the custom Level Editor, accessible via the Unity menu (`SKC > Level Editor`). It provides a comprehensive, user-friendly interface for level creation.
 
 ### Workflow
 
@@ -69,7 +69,7 @@ The editor operates in three distinct modes to keep the UI clean and focused:
 Follow these-adımlar to design a complete level from scratch.
 
 1.  **Open the Editor**
-    * In the Unity menu bar, go to `Window > SKC > Level Editor`.
+    * In the Unity menu bar, go to `SKC > Level Editor`.
 
 2.  **Start a New Level**
     * The editor will open on a welcome screen. Click the **"Create New Level"** button.
@@ -97,7 +97,7 @@ Follow these-adımlar to design a complete level from scratch.
 
 7.  **Save the Level**
     * This is a two-step process handled by one button. Click the green **"Create / Update LevelData Asset"** button at the bottom.
-    * **Step A (JSON Folder):** A folder selection dialog will pop up. Choose a folder where the level's raw data will be stored (e.g., create and select `Assets/Levels/Level_03/`). The editor will save `_grid.json`, `_bus.json`, and `_dest.json` files here.
+    * **Step A (JSON Folder):** A folder selection dialog will pop up. Choose a folder where the level's raw data will be stored (e.g., create and select `Assets/GameFolder/Data/Level 3/`). The editor will save `_grid.json`, `_bus.json`, and `_dest.json` files here.
     * **Step B (ScriptableObject Asset):** Immediately after, a file save dialog will appear. Name your final level asset (e.g., `Level_03.asset`) and save it in the *same folder*.
     * The editor will automatically create the `LevelData` asset and link the newly created JSON files to it.
 
